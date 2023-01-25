@@ -1,0 +1,11 @@
+<section class="posts">
+    <div class="container">
+        <div class="posts__inner">
+            <h6 class="section__title">latest posts</h6>
+            <div class="posts__list">
+                @@loop("./posts-card.html", "../../gulpfile.js/data/posts.json")
+            </div>
+            <button class="posts__btn">view all latest posts</button>
+        </div>
+    </div>
+</section>

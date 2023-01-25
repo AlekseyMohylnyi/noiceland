@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    font-size: $base-font-size;
+    line-height: 1.5;
+    
+    color: $base-color;
+    background-color: $background-color;
+    padding: 2rem;
+    // background-image: url(../../img/vincent.jpg);
+    background: url(../../img/vincent.jpg) no-repeat / cover;
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+
+    @include ph {
+        background-color: aqua;
+    }
+}
+
+.news-img {
+    width: 200px;
+}
+

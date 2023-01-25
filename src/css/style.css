@@ -1,0 +1,14 @@
+@import "./blocks/reset.css";
+@import "./blocks/var.css";
+@import "./blocks/base.css";
+
+
+
+@import "blocks/header.css";
+@import "blocks/gallery.css";
+@import "blocks/gallery-card.css";
+@import "blocks/posts.css";
+@import "blocks/posts-card.css";
+@import "blocks/featured.css";
+@import "blocks/featured-card.css";
+@import "blocks/footer.css";

@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+
+.footer__title {
+    color: sienna;
+    font-size: 30px;
+    // background-color: hotpink;
+
+    @include ph {
+        color: greenyellow;
+        font-size: 21px;
+        background-color: tomato;
+    }
+}

@@ -1,0 +1,9 @@
+.title {
+    color: yellow;
+    font-size: 20px;
+
+    @include ph {
+        color:blue;
+        font-size: 33px;
+    }
+}

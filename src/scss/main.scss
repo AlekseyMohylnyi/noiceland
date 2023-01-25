@@ -1,0 +1,11 @@
+$base-font-size: 32px;
+$base-color: rgb(186, 186, 93);
+$background-color: rgb(41, 41, 143);
+
+@mixin ph {
+    @media (max-width: 700px) {
+        @content;
+    }
+}
+
+@import "blocks/*.scss";

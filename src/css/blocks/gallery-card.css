@@ -1,0 +1,45 @@
+.gallery__card {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.gallery__img {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.gallery__img img {
+    width: 100%;
+}
+
+.gallery__suptitle {
+    font-weight: 400;
+    font-size: 0.5rem;
+    line-height: 12px;
+    color: var(--grey-light);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.gallery__title {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: .8rem;
+    line-height: 24px;
+}
+
+.gallery__autor {
+    font-size: 0.5rem;
+    color: var(--black);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
